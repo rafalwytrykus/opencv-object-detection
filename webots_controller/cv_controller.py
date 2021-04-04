@@ -23,7 +23,7 @@ right_motor.setPosition(float("inf"))
 
 def get_frame(camera):
     """
-    Returns frame in a format compatible opencv
+    Returns frame in a format compatible with OpenCV.
     """
     frame = camera.getImage()
     if frame is None:
